@@ -10,10 +10,10 @@ cin >> a;
 cout << "podaj b" << endl;
 cin >> b;
 
-cout << bitset<8>(a|b).to_string();
-cout << bitset<8>(a^b).to_string();
-cout << bitset<8>(a&b).to_string();
-cout << bitset<8>(a<<=b).to_string();
+cout << bitset<8>(a|b).to_string() <<endl;
+cout << bitset<8>(a^b).to_string() <<endl;
+cout << bitset<8>(a&b).to_string() <<endl;
+cout << bitset<8>(a<<=b).to_string() <<endl;
 cout << bitset<8>(a>>=b).to_string();
 return 0;
 }
